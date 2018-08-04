@@ -1,0 +1,179 @@
+body{
+	
+ 
+}
+
+@font-face{
+			font-family: "Faux Sanskrit";
+			font-weight: bold;
+			src:url("fonts/SAMAN___.TTF") format('embedded-opentype'),
+			url("fonts/SAMAN___.TTF") format('opentype')
+		}
+.main{
+	height: 100%;
+	width: 100%;
+}
+.namaste{
+	font-size: 60px;
+  font-family: Faux Sanskrit;
+  padding-left: 0%;
+   }
+h1{
+	font-family: 'Risque', cursive;
+	margin-top: 0px;
+	font-weight: lighter;
+	font-size: 60px;
+	padding-left: 20%;}
+
+h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	padding-left: 25%;
+	padding-bottom: 10%;
+
+}   
+.img1{
+	float: left;
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	margin-left: 0%;
+	background-image: url("Image/4.jpg");
+}
+
+.img2{
+	float: right;
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	margin-top: 0%;
+	background-image: url("Image/5.jpg");
+}
+ul {
+    list-style-type: none;
+    font-family: 'Montserrat', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    border: 1px solid #FAFAFA;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+    color: white;
+}
+h2{
+	font-family: 'Caveat', cursive;
+	font-size: 40px;
+	font-weight: bold;
+
+}
+.about_me{
+}
+
+.photo{
+	margin-left: 60%;
+	width: 1000px;
+	
+}
+.describe{
+	width: 200px;
+	height: 300px;
+	
+}
+.quote{
+	font-family: 'Caveat', cursive;
+	font-size: 40px;
+	font-weight: bold;
+	padding-left: 80px;
+}
+.active {
+    background-color: 	#c0c0c0;
+    background-size: 40px;
+}
+.home{
+	
+}
+.about_me{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.portfolio{
+	margin-right: 50px;
+}
+.contact{
+	margin-right: 50px;
+}
+.empty{
+	width: 100%;
+	background-color: black;
+	height: 10px;
+}
+.footer .fa {
+  padding: 20px 30px;
+  color: white;
+}
+.footer {
+  height: 45vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.footer h3 {
+  color: #ecc700;
+  font-size: 32px;
+  padding: 10px;
+  height: 48px;
+}
+
+.footer p {
+  color: white;
+  font-size: 24px;
+  padding: 5px;
+}
+.footer .contact{
+	z-index: 4;
+	margin-top: 0px;
+	background-color: black;
+	align-self: center;
+	width: 520px;
+	height: 80px;
+	border-radius: 10px;
+}
+.footer .contact1{
+	z-index: 6;
+	font-size: 40px;
+	padding-bottom: 0px;
+	left: 500px;
+	
+}
+.copyright{
+	background-color: black;
+	color: white;
+	size: 50px;
+	margin-bottom: 60px;
+}
+.words{
+	padding-left: 35%;
+}
